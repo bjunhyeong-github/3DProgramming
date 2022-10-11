@@ -1,0 +1,17 @@
+﻿  3DP_BJH.cpp
+C:\Users\User\source\repos\3DProgramming\week06_BJH\3DP_BJH.cpp(47,19): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\User\source\repos\3DProgramming\week06_BJH\3DP_BJH.cpp(108,69): warning C4244: '=': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=float
+          ]
+C:\Users\User\source\repos\3DProgramming\week06_BJH\3DP_BJH.cpp(109,68): warning C4244: '=': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=float
+          ]
+C:\Users\User\source\repos\3DProgramming\week06_BJH\3DP_BJH.cpp(166,24): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\User\source\repos\3DProgramming\week06_BJH\3DP_BJH.cpp(181,26): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\User\source\repos\3DProgramming\week06_BJH\3DP_BJH.cpp(185,26): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\User\source\repos\3DProgramming\week06_BJH\3DP_BJH.cpp(259,19): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  week06_BJH.vcxproj -> C:\Users\User\source\repos\3DProgramming\x64\Debug\week06_BJH.exe
