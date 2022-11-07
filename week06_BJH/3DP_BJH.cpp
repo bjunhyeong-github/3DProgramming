@@ -156,8 +156,6 @@ void Update()
         //   (1.3배 이상이 되면 줄어들고 0.7배 이하가 되면 다시 늘어나게 만드시오)
 
         //이동
-
-
         transform.translate = glm::mat3(
             1, 0, 0,
             0, 1, 0,
@@ -174,7 +172,6 @@ void Update()
         );
 
         //크기
-
         Scale += PlusS;
         if (Scale >= 1.3)
         {

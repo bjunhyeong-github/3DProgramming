@@ -1,0 +1,7 @@
+﻿  Matrix_BJh.cpp
+C:\Users\User\source\repos\3DProgramming\week10_BJH\MuSoenMath.h(38,24): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week10_BJH\MuSoenMath.h(39,22): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week10_BJH\MuSoenMath.h(40,24): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week10_BJH\MuSoenMath.h(41,24): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week10_BJH\Matrix_BJh.cpp(3,13): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  week10_BJH.vcxproj -> C:\Users\User\source\repos\3DProgramming\x64\Debug\week10_BJH.exe
