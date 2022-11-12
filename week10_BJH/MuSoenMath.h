@@ -12,7 +12,7 @@ public:
                 Mat[i][j] = 0;                       // 멤버변수 초기화
             }
         }
-    }
+    } 
     void Reset() {                                   // 행렬초기화 함수(쓰레기 값이 나오기때문에 초기화)
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
