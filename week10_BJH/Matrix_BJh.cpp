@@ -17,3 +17,4 @@ void main() {
 	cout << "0,0에서 (3,5)만큼이동,30도회전,2배 확대했을때의 좌표값은: " << endl;
 	cout << Vector.Position[0] << "," << Vector.Position[1] << "입니다." << endl;
 }
+ 
