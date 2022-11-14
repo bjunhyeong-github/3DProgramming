@@ -1,54 +1,26 @@
 #include <iostream>
 #include <math.h>
-#include "BJHfile.h"
+#include "MuseonMath.h"
  
-using namespace std;
-class MatOp                                         //단위행렬을 초기화해주는 함수
+
+void main()
 {
-public:
-    float Mat[3][3];                                 // 3x3 2차원행렬
+	Vec3 Vector(0, 0);                 //원점을 0,0으로 설정
+	Mat3 Matrix;                       // 행렬 생성
 
-    MatOp() {                                         //  행렬 생성
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                Mat[i][j] = 0;                       // 멤버변수 초기화
-            }
-        }
-    }
-    void Reset() {                                   // 행렬초기화 함수(쓰레기 값이 나오기때문에 초기화)
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                Mat[i][j] = 0;
-            }
-        }
-        Mat[0][0] = 1;
-        Mat[1][1] = 1;
-        Mat[2][2] = 1;                               //2차원 좌표에서 z축은 존재하지 않음으로 1값으로 초기화
-    }
+	Matrix.Translate(3, 5);            // x=3, y=5만큼 좌표이동
+	Vector = Vector * Matrix;          // 연산자 오버로딩으로 백터와 행렬 계산
+	Matrix.Rotate(30);                 // 30도만큼 회전
+	Vector = Vector * Matrix;          // 연산자 오버로딩으로 백터와 행렬 계산
+	Matrix.Scale(2);                   // 크기를 2배 확대
+	Vector = Vector * Matrix;          // 연산자 오버로딩으로 백터와 행렬 계산
 
-};
+	cout << fixed;
+	cout.precision(0);                 //소수점을 제거하면서 정수값으로 좌표설정
+	cout << "0,0에서 (3,5)만큼이동,30도회전,2배 확대했을때의 좌표값은: " << endl;
+	cout << Vector.Position[0] << "," << Vector.Position[1] << "입니다." << endl;
 
-int main()
-{
-    int m = 3;
-    int n = 3;
-    int matrix[3][3] = { {1,2,3},{4,5,6},{7,8,9} };
-    int transpose[3][3];
-    int i, j;
+	multiplyTransposeMat();
+	multiplyMat();
 
-    for (i = 0; i < m; i++)
-        for (j = 0; j < n; j++)
-            transpose[i][j] = matrix[j][i];
-
-    for (i = 0; i < n; i++) {
-        for (j = 0; j < m; j++)
-            printf("%d\t", matrix[i][j]);
-        printf("\n");
-    }
-    for (i = 0; i < n; i++) {
-        for (j = 0; j < m; j++)
-            printf("%d\t", transpose[i][j]);
-        printf("\n");
-    }
-    return 0;
 }
