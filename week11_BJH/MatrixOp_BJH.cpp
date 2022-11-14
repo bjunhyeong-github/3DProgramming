@@ -1,6 +1,6 @@
 #include <iostream>
 #include <math.h>
-#include "MuseonMath.h"
+#include "MusoenMath.h"
  
 
 void main()
@@ -17,10 +17,13 @@ void main()
 
 	cout << fixed;
 	cout.precision(0);                 //소수점을 제거하면서 정수값으로 좌표설정
-	cout << "0,0에서 (3,5)만큼이동,30도회전,2배 확대했을때의 좌표값은: " << endl;
+	cout << "0,0에서 (3,5)만큼이동,30도회전,2배 확대했을때의 좌표값은: ";
 	cout << Vector.Position[0] << "," << Vector.Position[1] << "입니다." << endl;
 
+	UnitMat();
+	tpMat();
 	multiplyTransposeMat();
 	multiplyMat();
+	
 
 }

@@ -142,7 +142,7 @@
     <ClCompile Include="MatrixOp_BJH.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MuseonMath.h" />
+    <ClInclude Include="MusoenMath.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
