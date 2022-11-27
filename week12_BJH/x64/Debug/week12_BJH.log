@@ -1,0 +1,29 @@
+﻿  sources.cpp
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(45,19): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(88,36): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(89,36): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(90,25): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(106,46): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(107,46): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(108,31): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(162,24): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(195,114): error C2679: 이항 '*': 오른쪽 피연산자로 'Vec3' 형식을 사용하는 연산자가 없거나 허용되는 변환이 없습니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\MusoenMath.h(70,7): message : 'Mat3 Mat3::operator *(Mat3 &)'일 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(195,114): message : 인수 목록 '(Mat3, Vec3)'을(를) 일치시키는 동안
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(200,110): error C2679: 이항 '*': 오른쪽 피연산자로 'Vec3' 형식을 사용하는 연산자가 없거나 허용되는 변환이 없습니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\MusoenMath.h(70,7): message : 'Mat3 Mat3::operator *(Mat3 &)'일 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(200,110): message : 인수 목록 '(Mat3, Vec3)'을(를) 일치시키는 동안
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(216,68): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(216,42): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(219,68): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(219,42): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(222,68): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(222,42): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(225,68): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(225,42): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(228,68): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(228,42): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(232,68): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(232,42): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(240,84): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\source\repos\3DProgramming\week12_BJH\sources.cpp(240,52): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
